@@ -1,16 +1,105 @@
-# React + Vite
+# 📢 Notice2Action AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## An Intelligent College Notice Management and Personalized Student Action & Alert System
 
-Currently, two official plugins are available:
+Notice2Action AI is a full-stack web application designed to transform lengthy and unstructured college notices into clear, personalized, and actionable information for students.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The system analyzes notice information, identifies eligibility requirements, matches notices with student profiles, generates personalized actions, and sends email notifications to eligible students.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Problem Statement
 
-## Expanding the ESLint configuration
+College students receive notices related to:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Placements
+- Internships
+- Scholarships
+- Hackathons
+- Workshops
+- Competitions
+- Academic activities
+
+Important information such as eligibility criteria, deadlines, required documents, and actions can easily be missed when notices are lengthy or distributed through different channels.
+
+---
+
+## 💡 Our Solution
+
+Notice2Action AI provides a centralized platform where administrators can publish college notices.
+
+The system then:
+
+1. Stores the notice
+2. Processes important notice information
+3. Identifies eligibility criteria
+4. Checks student profile details
+5. Matches eligible students with the notice
+6. Generates personalized actions
+7. Sends email notifications
+8. Helps students complete required actions before deadlines
+
+---
+
+## ✨ Key Features
+
+### 👨‍💼 Admin Features
+
+- Admin login
+- Create and publish notices
+- Add notice category
+- Add eligibility criteria
+- Add deadlines
+- Add required documents
+- View published notices
+- Manage notices
+
+### 👩‍🎓 Student Features
+
+- Student registration and login
+- Student profile management
+- View relevant notices
+- Check eligibility
+- View personalized actions
+- View deadlines
+- Receive email notifications
+
+### 🤖 AI-Based Features
+
+- Analyze notice information
+- Extract important details
+- Identify eligibility requirements
+- Generate structured notice information
+- Create personalized actions for students
+
+### 📧 Notification Features
+
+- Email notifications
+- Notify eligible students
+- Deadline-based information
+- Personalized action messages
+
+---
+
+## 🔄 System Workflow
+
+```text
+Admin
+  ↓
+Create / Publish Notice
+  ↓
+Notice2Action AI
+  ↓
+Process Notice Information
+  ↓
+Extract Eligibility & Deadline
+  ↓
+Check Student Profile
+  ↓
+Match Eligible Students
+  ↓
+Generate Personalized Action
+  ↓
+Send Email Notification
+  ↓
+Student Views & Completes Action
